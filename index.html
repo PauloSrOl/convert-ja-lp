@@ -1,221 +1,207 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--font-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!--link css-->
-    <link rel="stylesheet" href="css/style.css">
-    <title>Convert ja</title>
-</head>
-<body>
-    <!--Inicio do Header-->
-    <header style="background-image: url('imagens/img/background-home-roxo.jpg');">
-
-        <!--inicio container-->
-
-        <div class="container">
-            <nav>
-                <a href="index.html"> <img src="imagens/logo-laranja-p.png" alt="logo-laranja">
-                </a>
-                    
-                    <ul class="ul">
-                        <a href="index.html">Home</a>
-                        <a href="sobre.html">Sobre</a>
-                        <a href="servicos.html">Serviços</a>
-                        <a class="btn" href="contato.html">Contato</a>
-                        <div class="close-icon">
-                            <i class="fa fa-times-circle"></i>
-                        </div>
-                    </ul>
-                    <div class="menu-icon">
-                        <i class="fa fa-bars"></i>
-                    </div>
-            </nav>
-            <section class="banner">
-                <div class="banner-text">
-                    <h1>Convet Ja</h1>
-                    <p>Contrua a sua marca, conquiste o mundo sem habilidade de codigos</p>
-                    <a href="contato.html" class="btn animate-btn">Entre em Contato</a>
-                </div>
-            </section>
-
-            <!--fim container-->
-
-        </div>
+    <!-- Link css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Website html css e javacript</title>
+  </head>
+  <body>
+    <!-- header-->
+    <header style="background-image: url('img/background-home-roxo.jpg')">
+      <!-- container -->
+      <div class="container">
+        <nav>
+          <a href="index.html">
+            <img src="img/logo-laranja-p.png" alt="Logo" />
+          </a>
+          <ul class="ul">
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="servicos.html">Servicos</a>
+            <a class="btn" href="contacto.html">contacto</a>
+            <div class="close-icon" onclick="closeMenu()">
+              <i class="fa fa-times-circle"></i>
+            </div>
+          </ul>
+          <div class="menu-icon" onclick="openMenu()">
+            <i class="fa fa-bars"></i>
+          </div>
+        </nav>
+        <section class="banner">
+          <div class="banner-text">
+            <h1>Convet Ja</h1>
+            <p>
+              Contrua a sua marca, conquiste o mundo sem habilidades de código
+              ou design necessárias.
+            </p>
+            <a href="contacto.html" class="btn animate-btn"
+              >Entrar em contacto</a
+            >
+          </div>
+        </section>
+      </div>
+      <!-- end container -->
     </header>
-    <!--Fim do Header-->
-
-    <!--Inicio da Section Faca mais-->
+    <!-- end header -->
+    <!-- faca mais -->
     <section class="faca-mais">
-
-        <!--inicio container faca mais-->
-
-        <div class="container">
-            <div class="faca-mais-text">
-                <h3>Faça Mais com a Convert Já</h3>
-                <p>Criação de Landing Pages, midias, midias para pequenas, médias e grandes empresas ter um serviço digital nunca foi tão fácil.</p>
-                <a href="contato.html" class="btn animate-btn">Entre em Contato</a>
-            </div>
-            <div class="faca-mais-img">
-                <img src="imagens/logo-p.png" alt="logo-p">
-            </div>
+      <!-- container -->
+      <div class="container">
+        <div class="faca-mais-text">
+          <h3>Faça mais com whitepace</h3>
+          <p>
+            Criação de websites, loja virtual, blogs para pequenas, médias e
+            grande empresas ter um site online nunca foi tão fácil.
+          </p>
+          <a href="contacto.html" class="btn animate-btn">Entrar em contacto</a>
         </div>
-
-        <!--fim container faca mais-->
-
+        <div class="faca-mais-img">
+          <img src="img/logo-p.png" alt="" />
+        </div>
+      </div>
+      <!-- end container -->
     </section>
-    <!--fim da Section Faca mais -->
-
-        <!--Inicio da Section Faca mais 2-->
-        <section class="faca-mais">
-
-            <!--inicio container faca mais 2-->
-    
-            <div class="container">
-                <div class="faca-mais-img">
-                    <img src="imagens/img/img-1-laranja.png" alt="logo-p">
+    <!-- end faca mais -->
+    <!-- faca mais 2-->
+    <section class="faca-mais">
+      <!-- container -->
+      <div class="container">
+        <div class="faca-mais-img">
+            <img src="img/img-1-laranja.png" alt="" />
+          </div>
+        <div class="faca-mais-text">
+          <h3>Ter um website nunca foi tão fácil</h3>
+          <p>
+            Agora com a nossa empresa ter um website é algo simplesmente fácil basta entrar
+            em contacto e nós vamos desenvolver o seu website em tempo recorde para você 
+            começar a conquistar o mundo.
+          </p>
+          <a href="contacto.html" class="btn">Entrar em contacto</a>
+        </div>
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end faca mais 2-->
+    <!-- depoimentos -->
+    <section class="depoimentos">
+        <div class="container">
+            <h3>Nossos Depoimentos</h3>
+            <p>Leia o que nosss clientes falam de nós pra o mundo</p>
+            <div class="cards"> 
+              <!-- card item 1 -->
+                <div class="card-item" id="card1">
+                    <img src="img/logo-pp.png" id="imagem1" alt="Matheus">
+                    <p class="nome-user">Herry jones</p>
+                    <p class="depoimento-user">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Animi ratione eum quas ut, provident ullam enim vel aliquid
+                      asperiores commodi voluptatibus, fugiat exercitationem eos,
+                      tempora nostrum molestias voluptatum recusandae voluptas!
+                    </p>
+                    <div class="estrelas">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
                 </div>
-                <div class="faca-mais-text">
-                    <h3>Criar a sua Midia Digital nunca foi tão fácil</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga excepturi magni expedita repellat dolores explicabo debitis ad quos deserunt, eligendi voluptatibus cumque pariatur, corporis, dicta similique ab minus odio officia.</p>
-                    <a href="contato.html" class="btn">Entre em Contato</a>
-            </div>
-    
-            <!--fim container faca mais 2-->
-            
-        </section>
-        <!--fim da Section Faca mais 2-->
-
-        <!--inicio da section depoimentos-->
-
-        <section class="depoimentos">
-            <div class="container">
-                <h3>Nossos Depoimentos</h3>
-                <p>Leia o que nossos clientes falam de nós para o mundo</p>
-                <!--card item 1-->
-
-                <div class="cards">
-                    <div class="card-item" id="card1">
-                        <img src="imagens/logo-pp.png" id="imagem1" >
-                        <p class="name-user">Herry Jones</p>
-                        <p class="depoimento-user">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa eligendi nemo magnam deserunt tempora totam dolor libero aperiam voluptas hic. Minus officia, accusamus eius ratione laudantium debitis illum eveniet maiores.</p>
-                        <div class="estrelas">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-    
-                        </div>
-                    </div>
-                   
-                
-
-                <!--fim card item 1-->
-
-                <!--card item 2-->
-
-                
-                    <div class="card-item" id="card2">
-
-                        <img src="imagens/logo-pp.png" id="imagem2" >
-
-                        <p class="name-user">Herry Jones</p>
-                        <p class="depoimento-user">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa eligendi nemo magnam deserunt tempora totam dolor libero aperiam voluptas hic. Minus officia, accusamus eius ratione laudantium debitis illum eveniet maiores.</p>
-                        <div class="estrelas">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-    
-                        </div>
-                    </div>
-                                                
-                <!--fim card item 2-->
-
-                <!--card item 3-->
-              
-                    <div class="card-item" id="card3">
-                        
-                        <img src="imagens/logo-pp.png"  id="imagem3" >
-                        
-                     
-                        <p class="name-user">Herry Jones</p>
-                        <p class="depoimento-user">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa eligendi nemo magnam deserunt tempora totam dolor libero aperiam voluptas hic. Minus officia, accusamus eius ratione laudantium debitis illum eveniet maiores.</p>
-                        <div class="estrelas">
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-    
-                        </div>
-                    </div>          
-                
-                <!--fim card item 3-->
-            </div>
-        </section>
-        <!--fim da section depoimentos-->
-
-        <!--inicio da section clientes-->
-        <section class="clientes">
-            <div class="container">
-                <h3>Nossos Clientes</h3>
-                <p>Prestamos serviços para todo tipo de empresas ou projetos, veja alguns dos nossos clientes</p>
-                <div>
-                    <img src="imagens/img/apple.png" alt="">
-                    <img src="imagens/img/microsoft.png" alt="">
-                    <img src="imagens/img/slack.png" alt="">
-                    <img src="imagens/img/google.png" alt="">
+                <!-- end card item 1 -->
+                 <!-- card item 2 -->
+                 <div class="card-item" id="card2">
+                  <img src="img/logo-pp.png" id="imagem2" alt="Matheus">
+                  <p class="nome-user">Herry jones</p>
+                  <p class="depoimento-user">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Animi ratione eum quas ut, provident ullam enim vel aliquid
+                    asperiores commodi voluptatibus, fugiat exercitationem eos,
+                    tempora nostrum molestias voluptatum recusandae voluptas!
+                  </p>
+                  <div class="estrelas">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                  </div>
+              </div>
+              <!-- end card item 2 -->
+               <!-- card item 3 -->
+               <div class="card-item" id="card3">
+                <img src="img/logo-pp.png" id="imagem3" alt="Matheus">
+                <p class="nome-user">Herry jones</p>
+                <p class="depoimento-user">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Animi ratione eum quas ut, provident ullam enim vel aliquid
+                  asperiores commodi voluptatibus, fugiat exercitationem eos,
+                  tempora nostrum molestias voluptatum recusandae voluptas!
+                </p>
+                <div class="estrelas">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
                 </div>
             </div>
-        </section>
-
-        <!--fim da section clientes-->
-
-      <!--Inicio da Section Faca mais-->
-      <section class="faca-mais">
-
-        <!--inicio container faca mais-->
-
-        <div class="container">
-            <div class="faca-mais-text">
-                <h3>Tenha um Trabalho feito por Profissionais</h3>
-                <p>Criação de Landing Pages, midias, midias para pequenas, médias e grandes empresas ter um serviço digital nunca foi tão fácil.</p>
-                <a href="contato.html" class="btn animate-btn">Entre em Contato</a>
-            </div>
-            <div class="faca-mais-img">
-                <img src="imagens/Logo-pp-roxo.png" alt="logo-p">
+            <!-- end card item 3 -->
             </div>
         </div>
-
-        <!--fim container faca mais-->
-
     </section>
-    <!--fim da Section Faca mais -->
-
-
-    <!--inicio do Footer-->
-
-
-    <!--Fim do Footer-->
-
-    <footer class="footer">
-        <div class="container">
-            <div class="links">
-                <a href="#"> <i class="fa fa-facebook"></i></a>
-                <a href="#"> <i class="fa fa-instagram"></i></a>
-                <a href="#"> <i class="fa fa-github"></i></a>
-                <a href="#"> <i class="fa fa-linkedin"></i></a>
-            </div>
-
-            <p>Desenvolvido por Paulo Soares</p>
+    <!-- end depoimentos -->
+    <!-- clientes -->
+    <section class="clientes">
+      <div class="container">
+        <h3>Nossos Clientes</h3>
+        <p>Prestamos serviços todo tipo de empresa
+          ou projecto, olhe alguns dos nossos clientes.</p>
+          <div>
+            <img src="img/apple.png" alt="">
+            <img src="img/microsoft.png" alt="">
+            <img src="img/slack.png" alt="">
+            <img src="img/google.png" alt="">
+          </div>
+      </div>
+    </section>
+    <!-- end clientes -->
+    <!-- faca mais -->
+    <section class="faca-mais">
+      <!-- container -->
+      <div class="container">
+        <div class="faca-mais-text">
+          <h3>Tenha um webiste seguro!</h3>
+          <p>
+            Nós trabalhamos com tecnologias actualizadas,
+            rápidas e as mais seguras desse mercado nós fazemos backup e
+            manutenção no seu site em tempo recorde.
+          </p>
+          <a href="contacto.html" class="btn animate-btn">Entrar em contacto</a>
         </div>
-    </footer>
-
-</body>
-<script src="animacoes.js"></script>
+        <div class="faca-mais-img">
+          <img src="img/Logo-pp-roxo.png" alt="" />
+        </div>
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end faca mais -->
+    <!-- footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="links">
+            <a href="#"> <i class="fa fa-facebook"></i> </a>
+            <a href="#"> <i class="fa fa-instagram"></i></a>
+            <a href="#"> <i class="fa fa-github"></i> </a>
+            <a href="#"> <i class="fa fa-linkedin"></i></a>
+          </div>
+          <p>Desenvolvido por Paulo Soares</p>
+        </div>
+      </footer>
+    <!-- end footer -->
+    <script src="js/main.js"></script>
+  </body>
 </html>

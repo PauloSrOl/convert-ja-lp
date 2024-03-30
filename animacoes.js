@@ -33,4 +33,12 @@ card3.addEventListener('mouseout', function(){
     document.getElementById("imagem3").src="../imagens/logo-pp.png"
 });
 
+let ul = document.querySelector('nav .ul');
 
+function openMenu(){
+    ul.classList.add('open');
+}
+
+function closeMenu(){
+    ul.classList.remove('open')
+}
