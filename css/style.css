@@ -161,6 +161,7 @@ nav ul a:hover::after{
     display: block;
     margin: 10px auto;
 }
+
 .depoimentos .card-item .name-user{
     font-weight: 600;
     font-size: 20px;
@@ -180,6 +181,20 @@ nav ul a:hover::after{
     font-size: 20px;
 }
 .depoimentos .card-item:hover{
-    background-color: rgb(236, 114, 0);
+    background-color: rgb(227, 167, 255);
     margin-top: 5px;
+    
 }
+
+.depoimentos .card-item:hover .name-user,
+.depoimentos .card-item:hover .depoimento-user,
+.depoimentos .card-item:hover .estrelas i {
+    color: #630191;
+}
+.depoimentos .card-item img{
+    background-image: url('../imagens/logo-pp.png');
+}
+.depoimentos .card-item:hover img{
+    background-image: url('../imagens/Logo-pp-roxo.png');
+}
+   
